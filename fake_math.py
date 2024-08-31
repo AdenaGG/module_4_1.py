@@ -1,9 +1,9 @@
 def divide(first, second):
     if second == 0:
-        return print('Ошибка')
+        return 'Ошибка'
     else:
-        return print(first / second)
+        return first / second
 
 
-divide(int(input('Введите число fd: ')), int(input("Введите число fd2: ")))
+divide(1, 1)
 
